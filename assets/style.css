@@ -1,0 +1,97 @@
+@import url("https://fonts.cdnfonts.com/css/trevor");
+/* font-family: 'Trevor', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Archivo+Black&family=Arvo&family=Josefin+Sans&family=Kanit:wght@100;500&family=Lobster+Two:wght@700&family=Lumanosimo&family=Mukta:wght@500&family=Nunito:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Neon&family=Ysabeau+Infant:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) {
+  .welcome {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #e9abb1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .welcome h1 {
+    font-family: "Trevor", sans-serif;
+    /* color: #164d96; */
+    color: #162a40;
+    text-align: center;
+  }
+
+  .logoRedondo {
+    width: 10rem;  
+  }
+
+  .presentacion {
+    padding: 1rem;
+    background-image: url(./img/paredAzul.jpg);
+    background-position: center;
+    background-size: contain;   
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #162a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .presentacion-text{
+    width: 80%;
+    padding: 1rem;
+    background: rgba(233, 171, 177, 0.51);
+    border-radius: 16px;
+    /* From https://css.glass */
+    background: rgba(233, 171, 177, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  .presentacion-text span {
+    color: #a35c6e;
+  }
+
+  .profesores{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-image: url(./img/hojasPapel.jpg);
+    background-position: center;
+    background-size: contain;   
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #162a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .profe{
+    width: 80%;
+    padding: 1rem;
+    /* From https://css.glass */
+    background: rgba(103, 201, 203, 0.56);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+  }
+
+  .boton {
+    background-color: #d9adbd;
+    padding: 0.5rem;
+    color: #162a40;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+}
